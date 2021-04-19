@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Roboto Condensed Bold";
+  src: url('../fonts/Roboto Condensed/RobotoCondensed-Bold.ttf');
+  font-weight: bold;
+}
+
 * {
 margin: 0;
 padding: 0;
@@ -41,9 +47,13 @@ overflow: auto;
     top:0;
     min-width: 100%;
     min-height: 10%;
-    background-color: black;
+    background-color: rgba(13, 18, 26, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+p, h1 {
+    font-family: 'Roboto Condensed Bold';
 }

@@ -1,0 +1,91 @@
+* {     
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+    transition: all .2s linear;
+}
+
+/*form*/
+.form-container {
+    min-height: 100vh; 
+    width: 100vw; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background: url('../img/bg-back2.jpg') no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    perspective: 62.5rem; 
+ 
+} 
+.form-container form{ 
+    height: 34rem; 
+    width: 21.875rem; 
+    background: rgba(255,255,255,.1); 
+    text-align: center;
+    align-items: center;
+    border-radius: .3125rem;
+    box-shadow: 0 .3125rem .9375rem rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-left: 1px solid rgba(255,255,255,.3);    
+    backdrop-filter: blur(.625rem);
+    transform-style: preserve-3d; 
+}
+/*heading*/
+.form-container form h3{ 
+    font-size: 30px; 
+    padding:30px 0; 
+    color:#ccc; 
+    letter-spacing: 3px; 
+} 
+/*icon*/
+.form-container form i{     
+    padding:0.5px; 
+    font-size: 20px; 
+    color:#bbb;
+
+} 
+/*Login*/
+.form-container form input {     
+    outline: none; 
+    border: none; 
+    height:40px;
+    width: 82%;
+    background: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.7);
+    box-shadow: 0 0 5px rgba(0,0,0,.5) inset;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    border-radius: 15px;
+} 
+/*Login*/
+.form-container form input[type="submit"] 
+{ 
+    width:90%; 
+    cursor: pointer; 
+    background:linear-gradient(90deg, deeppink, blueviolet); 
+    /* margin-top: 30px;  */
+    border-radius: 50px; 
+} 
+.form-container form input[type="submit"]:hover 
+{ 
+    letter-spacing: 4px; 
+}        
+.container {
+    display: block;
+}
+.icon{
+    margin-right: 8px;
+}
+
+#destinyv {
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
