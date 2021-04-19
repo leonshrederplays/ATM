@@ -1,0 +1,112 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    min-height: 10%;
+    left: 0;
+    background-color: rgba(13, 18, 26, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    left: 0;
+}
+
+.navbar2 {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    overflow: none;
+    right: 0;
+}
+
+nav a,
+.navbar2 a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Condensed Bold';
+    font-size: 17px;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+nav a b,
+.navbar2 a b {
+    top: 40px;
+    transition: 0.3s ease top;
+}
+
+nav a i {
+    position: relative;
+    left: 25%;
+    transition: 0.3s ease left;
+}
+
+.navbar2 a i {
+    position: relative;
+    right: 25%;
+    transition: 0.3s ease left;
+}
+
+nav span,
+.navbar2 spawn {
+    position: absolute;
+    width: 100px;
+    background-color: rgba(13, 18, 26, 0.9);
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50px;
+    z-index: 1;
+    transition: 0.3s ease left;
+}
+
+nav a:hover, .navbar2 a:hover {
+    color: #228AE3;
+}
+
+#ytd-url {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px 14px;
+    margin: 20px;
+    color: #fff;
+    font-family: 'Roboto Condensed Bold';
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #53588b;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px -5px rgba(83, 88, 139, 0.3);
+    z-index: 125;
+}
+
+.navbar p {
+    position: absolute;
+    font-size: 2.2rem;
+    font-family: 'Roboto Condensed BoldItalic';
+    letter-spacing: -3px;
+}
+
+.fleeca-span {
+    position: relative;
+    top:5px;
+    color: #228AE3;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed BoldItalic';
+    letter-spacing: -4px;
+}

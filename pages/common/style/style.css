@@ -4,13 +4,15 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Roboto Condensed BoldItalic";
+  src: url('../fonts/Roboto Condensed/RobotoCondensed-BoldItalic.ttf');
+  font-weight: bold;
+}
+
 * {
 margin: 0;
 padding: 0;
-}
-
-html {
-    background-image: url('../img/BG.jpg');
 }
 
 #root {
@@ -42,18 +44,10 @@ overflow: auto;
     border-right: 0px rgba(40,40,40,0.35) solid;
 }
 
-.header {
-    position: absolute;
-    top:0;
-    min-width: 100%;
-    min-height: 10%;
-    background-color: rgba(13, 18, 26, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 p, h1 {
     font-family: 'Roboto Condensed Bold';
+}
+
+a {
+  text-decoration: none;
 }

@@ -6,18 +6,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Konten</title>
+        <script src="../common/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="../common/style/style.css" />
         <link rel="stylesheet" href="accounts.css" />
+        <script defer src="../common/fonts/fontawesome/js/all.js"></script> <!--load all styles -->
+
+        <script>
+            $(function(){
+              $("#includeNav").load("../common/pages/navbar-accounts/navbar-acc.html");
+            }); 
+        </script>
     </head>
 
     <body>
         <!-- This was made with GlassGenerator.netlify.app -->
         <div id="root">
             <div class="glass-container" id="glass">
-                <div class="header">
-                    <p>Lorem, ipsum dolor.</p>
-                </div>
+                <div id="includeNav"></div>
             </div>
         </div>
     </body>
 
 </html>
+
