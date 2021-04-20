@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hauptmenü</title>
-        <script src="../common/js/jquery.min.js"></script>
-        <link rel="stylesheet" href="../common/style/style.css" />
-        <link rel="stylesheet" href="main-menu.css" />
-        <script defer src="../common/fonts/fontawesome/js/all.js"></script> <!--load all styles -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauptmenü</title>
+    <script src="../common/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../common/style/style.css" />
+    <link rel="stylesheet" href="../common/style/buttons.css" />
+    <link rel="stylesheet" href="main-menu.css" />
+    <script defer src="../common/fonts/fontawesome/js/all.js"></script>
+    <!--load all styles -->
 
-        <script>
-            $(function(){
-              $("#includeNav").load("../common/pages/navbar-menu/navbar-menu.html");
-            }); 
-        </script>
-    </head>
+    <script>
+        $(function () {
+            $("#includeNav").load("../common/pages/navbar-menu/navbar-menu.html");
+        });
+        $(function () {
+            $("#includeAccHeader").load("../common/pages/acc-header/acc-header.html");
+        });
+    </script>
+</head>
 
-    <body>
-        <!-- This was made with GlassGenerator.netlify.app -->
-        <div id="root">
-            <div class="glass-container" id="glass">
-                <div id="includeNav"></div>
+<body>
+    <!-- This was made with GlassGenerator.netlify.app -->
+    <div id="root">
+        <div class="glass-container" id="glass">
+            <div id="includeNav"></div>
+            <div id="includeAccHeader"></div>
+            <div class="sitetitle2">Hauptmenü<hr class="divider"></div>
+            <div class="mm-buttons">
+                <ul class="buttonul">
+                    <li class="button-item2"><a href="../deposit/deposit.html" class="leadingbutton2">Einzahlung</a></li>
+                    <li class="button-item2"><a href="../withdraw/withdraw.html" class="leadingbutton2">Auszahlung</a></li>
+                    <li class="button-item2"><a href="../transfer/transfer.html" class="leadingbutton2">Überweisung</a></li>
+                    <li class="button-item2"><a href="../transactions/transactions.html" class="leadingbutton2">Kontoauszüge</a></li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
-

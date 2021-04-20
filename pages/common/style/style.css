@@ -63,7 +63,17 @@ a {
   text-align: center;
 }
 
-hr.trennung{
+.sitetitle2 {
+  font-family: 'Roboto Condensed Bold';
+  font-size: 1.875em;
+  text-shadow: .0625em .125em .125em rgba(0,0,0,0.75);
+  position: absolute;
+  top: 30%;
+  min-width: 100%;
+  text-align: center;
+}
+
+hr.divider {
   width: 80%;
   height: .078125em;
   background-color: #228ae3;
