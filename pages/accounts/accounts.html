@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Konten</title>
-        <script src="../common/js/jquery.min.js"></script>
-        <link rel="stylesheet" href="../common/style/style.css" />
-        <link rel="stylesheet" href="accounts.css" />
-        <script defer src="../common/fonts/fontawesome/js/all.js"></script> <!--load all styles -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konten</title>
+    <script src="../common/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../common/style/style.css" />
+    <link rel="stylesheet" href="../common/style/buttons.css" />
+    <link rel="stylesheet" href="accounts.css" />
+    <script defer src="../common/fonts/fontawesome/js/all.js"></script>
+    <!--load all styles -->
 
-        <script>
-            $(function(){
-              $("#includeNav").load("../common/pages/navbar-accounts/navbar-acc.html");
-            }); 
-        </script>
-    </head>
+    <script>
+        $(function () {
+            $("#includeNav").load("../common/pages/navbar-accounts/navbar-acc.html");
+        });
+    </script>
+</head>
 
-    <body>
-        <!-- This was made with GlassGenerator.netlify.app -->
-        <div id="root">
-            <div class="glass-container" id="glass">
-                <div id="includeNav"></div>
+<body>
+    <!-- This was made with GlassGenerator.netlify.app -->
+    <div id="root">
+        <div class="glass-container" id="glass">
+            <div id="includeNav"></div>
+            <div class="sitetitle">KONTOÜBERSICHT<hr class="trennung"></div>
+            <div class="acc-buttons">
+                <ul class="buttonul">
+                    <li class="button-item"></li><a href="#" class="leadingbutton">ACCOUNT NAME<br/>1234 5678 9876 5432</a></li>
+                    <li class="button-item"><a href="#" class="leadingbutton">ANOTHER ACCOUNT NAME<br/>1234 5678 9876 5432</a></li>
+                    <li class="button-item2"><a href="#" class="leadingbutton2">NEUES KONTO ERSTELLEN</a></li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
-
