@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Einzahlung</title>
-        <script src="../common/js/jquery.min.js"></script>
-        <link rel="stylesheet" href="../common/style/style.css" />
-        <link rel="stylesheet" href="deposit.css" />
-        <script defer src="../common/fonts/fontawesome/js/all.js"></script> <!--load all styles -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einzahlung</title>
+    <script src="../common/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../common/style/style.css" />
+    <link rel="stylesheet" href="../common/style/buttons.css" />
+    <link rel="stylesheet" href="../common/style/acc-header.css" />
+    <link rel="stylesheet" href="deposit.css" />
+    <script defer src="../common/fonts/fontawesome/js/all.js"></script>
+    <!--load all styles -->
 
-        <script>
-            $(function(){
-              $("#includeNav").load("../common/pages/navbar/navbar.html");
-            }); 
-        </script>
-    </head>
+    <script>
+        $(function () {
+            $("#includeNav").load("../common/pages/navbar/navbar.html");
+        });
 
-    <body>
-        <!-- This was made with GlassGenerator.netlify.app -->
-        <div id="root">
-            <div class="glass-container" id="glass">
-                <div id="includeNav"></div>
-            </div>
+        $(function () {
+            $("#includeAccHeader").load("../common/pages/acc-header/acc-header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- This was made with GlassGenerator.netlify.app -->
+    <div id="root">
+        <div class="glass-container" id="glass">
+            <div id="includeNav"></div>
+            <div id="includeAccHeader"></div>
+            <div class="sitetitle2">Einzahlung<hr class="divider"></div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
-

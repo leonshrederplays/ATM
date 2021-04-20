@@ -61,6 +61,7 @@ a {
   top: 15%;
   min-width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .sitetitle2 {
@@ -68,9 +69,10 @@ a {
   font-size: 1.875em;
   text-shadow: .0625em .125em .125em rgba(0,0,0,0.75);
   position: absolute;
-  top: 30%;
+  top: 27%;
   min-width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 hr.divider {
