@@ -1,110 +1,111 @@
 .creation {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    width: 50%;
-    padding: 2.5rem;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
-    box-sizing: border-box;
-    box-shadow: 0 .625rem .9375rem rgba(0,0,0,.6);
-    border-radius: .625rem;
-    vertical-align: middle;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-  }
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 50%;
+  padding: 2.5rem;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  box-shadow: 0 .625rem .9375rem rgba(0, 0, 0, .6);
+  border-radius: .625rem;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
 
-  .creation .information {
-      position: relative;
-  }
+.creation .information {
+  position: relative;
+}
 
-  .creation .information input {
-    width: 100%;
-    padding: .625rem 0;
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 1.875rem;
-    border: none;
-    border-bottom: .0625rem solid #fff;
-    outline: none;
-    background: transparent;
-  }
+.creation .information input {
+  width: 100%;
+  padding: .625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: .0625rem solid #fff;
+  outline: none;
+  background: transparent;
+}
 
-  .creation .information label {
-    position: absolute;
-    top:0;
-    left: 0;
-    padding: .625rem 0;
-    font-size: 1rem;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
-    font-family: 'Roboto Condensed Bold';
-  }
+.creation .information label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  font-family: 'Roboto Condensed Bold';
+}
 
-  .selection {
-    text-align: left;
-  }
-  
-  .selection select {
-    width: 100%;
-    padding: .625rem 0;
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 1.875rem;
-    border: none;
-    border-bottom: .0625rem solid #fff;
-    outline: none;
-    background: transparent;
-  }
+.selection {
+  text-align: left;
+}
 
-  .selection label {
-    font-family: 'Roboto Condensed Bold';
-  }
+.selection select {
+  width: 100%;
+  padding: .625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: .0625rem solid #fff;
+  outline: none;
+  background: transparent;
+}
 
-.information input:focus ~ label,
-.information input:valid ~ label {
-    top: -1.25rem;
-    left: 0;
-    color: #228AE3;
-    font-size: .875rem;
-  }
+.selection label {
+  font-family: 'Roboto Condensed Bold';
+}
 
-  input[type=submit] {
-    display: inline-block;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.6em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto Condensed Bold';
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #FFFFFF;
-    background-color:#228AE3;
-    text-align: center;
-    transition: all 0.75s;
-    max-width: 30em;
-    min-width: 20em;
-    box-shadow: .3125rem .3125rem .3125rem rgba(0, 0, 0, 0.4);
-  }
+.information input:focus~label,
+.information input:valid~label {
+  top: -1.25rem;
+  left: 0;
+  color: #228AE3;
+  font-size: .875rem;
+}
 
-  input[type=submit]:hover{
-    color: #228AE3;
-    background-color: #FFFFFF;
-  }
+input[type=submit] {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.6em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto Condensed Bold';
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #228AE3;
+  text-align: center;
+  transition: all 0.75s;
+  max-width: 30em;
+  min-width: 20em;
+  box-shadow: .3125rem .3125rem .3125rem rgba(0, 0, 0, 0.4);
+}
 
-  .submit input {
-    font-family: 'Roboto Condensed Bold';
-  }
+input[type=submit]:hover {
+  color: #228AE3;
+  background-color: #FFFFFF;
+}
 
-  .selection option {
-    color: #228AE3;
-    background-color: #fff;
-  }
+.submit input {
+  font-family: 'Roboto Condensed Bold';
+}
 
-  option:checked, option:hover {
-    color: #fff;
-    background-color: #228AE3;
-  }
+.selection option {
+  color: #228AE3;
+  background-color: #fff;
+}
+
+option:checked,
+option:hover {
+  color: #fff;
+  background-color: #228AE3;
+}
