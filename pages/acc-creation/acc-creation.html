@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konto erstellen</title>
     <script src="../common/js/jquery.min.js"></script>
+    <script src="./acc-creation.js"></script>
     <link rel="stylesheet" href="../common/style/style.css" />
     <link rel="stylesheet" href="acc-creation.css" />
     <script defer src="../common/fonts/fontawesome/js/all.js"></script>
@@ -28,7 +29,7 @@
                 <hr class="divider">
             </div>
             <div class="creation">
-                <form id="createacc" action="#" name="createacc">
+                <form action="#" name="createacc">
                     <div class="information">
                         <input type="text" id="accountname" name="accountname" required>
                         <label>Kontobezeichnung</label>
@@ -36,16 +37,17 @@
                     <div class="information">
                         <input type="text" id="ownername" name="ownername" required>
                         <label>Kontoinhaber</label>
-                    </div>                    
-                    <div class="information">
+                    </div>
+                    <div class="selection">
+                        <label class="selectlabel">Art des Kontos</label>
                         <select id="acctype" name="acctype" required>
+                            <option hidden disabled selected value></option>
                             <option value="private">Privatkonto</option>
                             <option value="business">Geschäftskonto</option>
                         </select>
-                        <label>Art des Kontos</label>
                     </div>
-                    <div class="submit">
-                        <input type="submit" id="submit" name="submit" value="Konto erstellen">
+                    <div class="submitbutton">
+                        <input type="submit" id="subbutton" name="subbutton" value="Konto erstellen">
                     </div>
                 </form>
             </div>
