@@ -83,6 +83,6 @@ input[type=submit]:hover {
   opacity: 0;
 }
 
-input:focus::-webkit-input-placeholder {
+input:focus::placeholder {
   opacity: 1;
 }
