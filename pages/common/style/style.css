@@ -10,6 +10,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Roboto Condensed Regular";
+  src: url('../fonts/Roboto Condensed/RobotoCondensed-Regular.ttf');
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -31,7 +31,20 @@
         <div class="glass-container" id="glass">
             <div id="includeNav"></div>
             <div id="includeAccHeader"></div>
-            <div class="sitetitle2">Einzahlung<hr class="divider"></div>
+            <div class="sitetitle2">Einzahlung
+                <hr class="divider">
+            </div>
+            <div class="depositform">
+                <form action="#" name="makedeposit">
+                    <div class="depositdetail">
+                        <input type="number" id="depositamount" name="depositamount" step="0.01" min="0.01" placeholder="$" required>
+                        <label>Betrag</label>
+                    </div>
+                    <div class="depositsubmit">
+                        <input type="submit" id="subdeposit" name="subdeposit" value="Einzahlen">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>

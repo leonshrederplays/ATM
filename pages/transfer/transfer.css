@@ -78,3 +78,11 @@ input[type=submit]:hover {
 .submit input {
   font-family: 'Roboto Condensed Bold';
 }
+
+::placeholder {
+  opacity: 0;
+}
+
+input:focus::placeholder {
+  opacity: 1;
+}

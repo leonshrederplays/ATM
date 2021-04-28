@@ -31,7 +31,20 @@
         <div class="glass-container" id="glass">
             <div id="includeNav"></div>
             <div id="includeAccHeader"></div>
-            <div class="sitetitle2">Auszahlung<hr class="divider"></div>
+            <div class="sitetitle2">Auszahlung
+                <hr class="divider">
+            </div>
+            <div class="withdrawform">
+                <form action="#" name="wdform">
+                    <div class="wd">
+                        <input type="number" id="wdamount" name="wdamount" placeholder="$" step="0.01" min="0.01" required>
+                        <label>Betrag</label>
+                    </div>
+                    <div class="wdsubmit">
+                        <input type="submit" id="subwd" name="subwd" value="Auszahlen">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
